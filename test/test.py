@@ -39,11 +39,11 @@
 
 def largest(a,b):
 	if(a>b):
-		return a
+		print(a)
 	else:
-		return b
+		print(b)
 
-# print largest(5, 10) 
+# largest(5, 10) 
 
 # Question 2:
 
@@ -51,9 +51,9 @@ def sum_of_array(arr):
   sum =0
   for i in arr:
     sum += i
-  return sum
+  print(sum)
  # arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
- # print(sum_of_array(arr))
+ # sum_of_array(arr)
 
 # Question 3:
 
@@ -63,6 +63,3 @@ def print_even(arr):
       print(i)
       
  # print_even([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-
-
-
